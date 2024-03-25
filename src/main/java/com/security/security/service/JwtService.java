@@ -48,7 +48,6 @@ public class JwtService {
                 .getBody();
     }
 
-
     public String generateToken(User user) {
         String token = Jwts
                 .builder()
